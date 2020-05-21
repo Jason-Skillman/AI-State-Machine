@@ -5,9 +5,6 @@ using UnityEngine;
 namespace AI.StateMachine {
 	public class AIBot : MonoBehaviour {
 
-		[Header("Debug")]
-		public bool idleToWander;
-
 		private StateMachine stateMachine;
 
 
@@ -24,7 +21,6 @@ namespace AI.StateMachine {
 
 
 			Func<bool> InputSpaceBar() => () => Input.GetKeyDown(KeyCode.Space);
-			//Func<bool> InputSpaceBar() => () => idleToWander;
 			
 			
 			
