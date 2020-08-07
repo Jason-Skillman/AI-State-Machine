@@ -1,4 +1,4 @@
 # AI-State-Machine
 
-#### Original video
+#### Original Video
 - https://youtu.be/V75hgcsCGOM
